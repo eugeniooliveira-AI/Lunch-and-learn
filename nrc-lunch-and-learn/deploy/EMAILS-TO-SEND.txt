@@ -1,0 +1,131 @@
+================================================================
+EMAIL TEMPLATES — IBA LUNCH & LEARN LANDING PAGE
+================================================================
+Copy-paste ready. Replace [bracketed] items before sending.
+
+
+================================================================
+EMAIL 1 — TO FOGLER (approval request)
+SEND: Today, ASAP
+================================================================
+
+To:     [gary.kissack@foglers.com or your Fogler contact]
+CC:     Kody Penner, Derrick Pattenden
+Subject: Quick approval — IBA Lunch & Learn landing page
+
+Hi [Gary / Name],
+
+For Thursday's lunch, I've put together a small companion landing
+page that guests will scan from a QR code on each tent card. It
+gives them quick access to who NRC and Fogler are, the speaker
+lineup, and a question form that routes back to either NRC,
+Fogler, or both teams.
+
+Could you take 2 minutes to review and confirm you're good with:
+- Logo placement
+- Partners' photos (Gary and Alain)
+- The Fogler firm copy
+
+Anything you'd like changed, just say the word and I'll update
+before it goes to print.
+
+Preview: [PASTE YOUR VERCEL PREVIEW URL HERE]
+
+Need a yes/no by Tuesday EOD if possible — printing Wednesday.
+
+Thanks,
+Eugenio
+
+Eugenio Oliveira
+Marketing Manager
+Nations Royalty Corp.
+778-903-5007
+
+
+
+================================================================
+EMAIL 2 — INTERNAL HEADS-UP TO KODY/DERRICK/KAREN
+SEND: Once Vercel is live
+================================================================
+
+To:     Kody Penner, Derrick Pattenden, Karen
+Subject: Lunch & Learn landing page — live for review
+
+Quick update on the lunch this Thursday.
+
+Built a small landing page that guests scan from the tent cards.
+Three things it does:
+1. Shows who NRC and Fogler are
+2. Lists the four speakers
+3. Captures questions and follow-up requests, routed to the
+   right team
+
+Live preview: [PASTE URL]
+
+Already sent to [Gary] for Fogler sign-off. Form submissions
+flow into HubSpot and you'll all get an email when one comes in
+(let me know if you want to opt out of the alerts).
+
+Will send the final QR code to [print contact] once Fogler
+confirms.
+
+Eugenio
+
+
+
+================================================================
+EMAIL 3 — POST-EVENT FOLLOW-UP (FOGLER-TAGGED LEADS)
+SEND: Friday May 1 morning
+================================================================
+
+To:     [Your Fogler contact]
+Subject: IBA Lunch & Learn — your follow-ups
+
+Hi [Name],
+
+Great event yesterday. Attached: the contacts from Thursday's
+lunch who flagged Fogler (or both teams) as their preferred
+follow-up.
+
+[Number] total. I've included the question or note each person
+left, plus contact details.
+
+Happy to compare notes on any joint follow-ups.
+
+Eugenio
+
+
+
+================================================================
+EMAIL 4 — POST-EVENT THANK-YOU (TO ATTENDEES, NRC-TAGGED)
+SEND: Friday May 1 morning, batch
+Use HubSpot to send to all NRC-tagged or both-tagged leads
+================================================================
+
+Subject: Thank you for joining us — IBA Lunch & Learn
+
+Hi {{contact.firstname}},
+
+Thank you for spending two hours with us yesterday at Vantage
+Venues. The conversation around IBA financial payments was
+exactly the kind of working session we hoped for, and your
+question/note —
+
+> {{contact.message}}
+
+— is being reviewed right now.
+
+A couple of quick links if useful:
+- Nations Royalty: nationsroyalty.com
+- Fogler, Rubinoff: foglers.com
+- The slide deck from yesterday: [LINK if shareable]
+
+I'll be in touch shortly with a direct response. In the meantime,
+if anything else comes up that'd be useful for your nation,
+reply to this email any time.
+
+Eugenio Oliveira
+Marketing Manager
+Nations Royalty Corp.
+TSXV: NRC | OTCQX: NRYCF | FRA: Y96
+778-903-5007 | nationsroyalty.com

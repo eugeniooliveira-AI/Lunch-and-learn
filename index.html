@@ -1170,7 +1170,7 @@
           { name: 'email',     value: data.email },
           { name: 'company',   value: data.organization },
           { name: 'jobtitle',  value: data.role },
-          { name: 'route_to',  value: data.routeTo },
+          { name: 'send_this_to',  value: data.routeTo },
           { name: 'message',   value: data.message },
           { name: 'lead_source', value: data.source }
         ],
@@ -1182,14 +1182,19 @@
         { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(hsPayload) }
       );
 
-      fetch(NOTIFY_ENDPOINT, {
-        method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data)
-      }).catch(() => {});
+      // Optional email backup endpoint — fail silently if not deployed
+      try {
+        fetch(NOTIFY_ENDPOINT, {
+          method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data)
+        }).catch(() => {});
+      } catch (e) { /* swallow */ }
 
       if (hsRes.ok) {
         showStatus('Thank you. Your note is on its way.', 'success');
         form.reset();
       } else {
+        const errText = await hsRes.text();
+        console.error('HubSpot submission failed:', hsRes.status, errText);
         showStatus("Thank you — we've got it. We'll be in touch shortly.", 'success');
         form.reset();
       }
